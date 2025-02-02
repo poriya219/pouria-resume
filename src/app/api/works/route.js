@@ -87,11 +87,11 @@ A sleek and minimalistic dark mode interface ensures a visually pleasing and dis
 Cross-Platform Compatibility:
 The app is currently available for Android and has plans to expand to iOS thanks to its Flutter framework, which simplifies multi-platform deployment.`,
   "images": [
-    "/images/gramatic1.png"
+    "/images/music1.png"
   ],
   "width": 300,
 "height": 400,
-"color": "bg-[#84c4eb]",
+"color": "bg-[#e6bf62]",
       }
   ];
   const url = new URL(req.url);
