@@ -1,7 +1,7 @@
 import ProjectCard from "@/components/project-card";
 
 const getData = async()=>{
-    const response = await fetch('http://localhost:3000/api/works');
+    const response = await fetch('/api/works');
     return response.json();
 }
 
