@@ -1,8 +1,9 @@
 import ProjectCard from "@/components/project-card";
 
 const getData = async()=>{
-    const response = await fetch('/api/works');
-    return response.json();
+    // const response = await fetch('/api/works');
+    // return response.json();
+    return [];
 }
 
 const WorksPage = async() => {
