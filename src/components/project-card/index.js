@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
 
-export default function ProjectCard({ title, description, imgUrl, color, width, height, index }) {
+export default function ProjectCard({ title, description, imgUrl, color, index }) {
     return (
       <div className={`${color} rounded-lg shadow-md px-8 flex flex-col items-center justify-between`}>
         <div className="pt-4 flex items-center justify-between w-full">
@@ -17,7 +17,7 @@ export default function ProjectCard({ title, description, imgUrl, color, width, 
         </Link>
         </div>
        <div className="flex items-center">
-       <Image src={imgUrl} alt={title} width={width} height={height} />
+       <Image src={imgUrl} alt={title} width={300} height={400} />
        </div>
       </div>
     );

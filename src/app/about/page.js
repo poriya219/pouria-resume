@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const AboutPage = () => {
     return (
-        <div className="flex flex-col px-8 py-4">
+        <div className="flex flex-col py-4">
             <div className="flex items-center">
                 <Image src={"/images/profile.jpg"} alt="Pouria" width={120} height={120} className="rounded-full"/>
                 <div className="flex flex-col pl-6">

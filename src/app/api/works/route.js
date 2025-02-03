@@ -24,10 +24,9 @@ Current Availability:
 Platforms: Gramtic is available as an Android app and a web application, offering flexibility for various users.
 Future Expansion: Due to its Flutter-based architecture, the app can easily be extended to support iOS, making it highly adaptable for further growth.`,
 "images": [
-  "/images/gramatic1.png"
+  "/images/gramatic2.jpg",
+  "/images/gramatic3.jpg"
 ],
-"width": 300,
-"height": 400,
 "color": "bg-[#84c4eb]",
     },
     {
@@ -61,10 +60,9 @@ Analytics: Powered by Google Analytics for advanced user behavior insights and a
 Current Availability:
 Platforms: BeeaaB is available on both Android and iOS, ensuring a seamless experience for users across different devices.`,
 "images": [
-  "/images/beeaab1.png"
+  "/images/beeaab2.jpg",
+  "/images/beeaab3.jpg",
 ],
-"width": 550,
-"height": 300,
 "color": "bg-[#2f3543]",
     },
     {
@@ -87,10 +85,8 @@ A sleek and minimalistic dark mode interface ensures a visually pleasing and dis
 Cross-Platform Compatibility:
 The app is currently available for Android and has plans to expand to iOS thanks to its Flutter framework, which simplifies multi-platform deployment.`,
   "images": [
-    "/images/music1.png"
+    "/images/music2.jpg"
   ],
-  "width": 300,
-"height": 400,
 "color": "bg-[#e6bf62]",
       }
   ];

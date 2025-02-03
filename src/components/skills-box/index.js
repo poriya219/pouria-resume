@@ -19,7 +19,7 @@ const SkillsBox = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-6">
             {skils.map((skill, index)=>(
                 <div key={index} className="flex items-center justify-between">
-                    <p className="font-bold text-sm">{skill.title}</p>
+                    <p className="font-bold text-sm w-2/6">{skill.title}</p>
                     <Progress aria-label={skill.title} className="max-w-md" value={skill.amount} />
                 </div>
             ))}
