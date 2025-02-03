@@ -19,7 +19,7 @@ const ProjectPage = async({params}) => {
             <div style={{ whiteSpace: "pre-wrap", wordBreak: "break-word" }} className="font-medium pt-8">
                 {data.description}
             </div>
-            <ImageCarousel images={data.images}/>
+            <ImageCarousel images={data.images} alt={data.title}/>
 
         </div>
     );

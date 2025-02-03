@@ -14,7 +14,7 @@ import Image from 'next/image';
 
 
 
-const ImageCarousel = ({images}) => {
+const ImageCarousel = ({images, alt}) => {
   return (
     <div className='px-10 py-10 items-center justify-center'>
       <Swiper navigation={true} modules={[Navigation]}  className="mySwiper">
@@ -28,7 +28,7 @@ const ImageCarousel = ({images}) => {
                         objectFit: "contain",
                       }}
                     src={image}
-                    alt={`Slide ${index}`}
+                    alt={alt}
                     width={800}
                     height={600}
                     />
