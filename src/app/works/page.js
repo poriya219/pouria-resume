@@ -10,7 +10,7 @@ const WorksPage = async() => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             {data.map((project, index)=>(
-                <ProjectCard key={index} title={project.title} description={project.description} color={project.color} imgUrl={project.images[0]} index={index}/>
+                <ProjectCard key={index} title={project.title} description={project.description} color={project.color} imgUrl={project.cover} index={index}/>
             ))}
         </div>
     );

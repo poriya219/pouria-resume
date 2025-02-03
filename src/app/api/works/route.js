@@ -27,6 +27,7 @@ Future Expansion: Due to its Flutter-based architecture, the app can easily be e
   "/images/gramatic2.jpg",
   "/images/gramatic3.jpg"
 ],
+"cover": "/images/gramatic1.jpg",
 "color": "bg-[#84c4eb]",
     },
     {
@@ -63,6 +64,7 @@ Platforms: BeeaaB is available on both Android and iOS, ensuring a seamless expe
   "/images/beeaab2.jpg",
   "/images/beeaab3.jpg",
 ],
+"cover": "/images/beeaab1.jpg",
 "color": "bg-[#2f3543]",
     },
     {
@@ -87,6 +89,7 @@ The app is currently available for Android and has plans to expand to iOS thanks
   "images": [
     "/images/music2.jpg"
   ],
+  "cover": "/images/music1.jpg",
 "color": "bg-[#e6bf62]",
       }
   ];
