@@ -10,8 +10,6 @@ const ProjectPage = async({params}) => {
     const param = await params;
     const slug = param.slug;
     const data = await getData(slug);
-    console.log('images:', data.images);
-    
 
     return (
         <div>
@@ -20,7 +18,6 @@ const ProjectPage = async({params}) => {
                 {data.description}
             </div>
             <ImageCarousel images={data.images} alt={data.title}/>
-
         </div>
     );
 }
