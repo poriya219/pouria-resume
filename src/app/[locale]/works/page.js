@@ -2,6 +2,7 @@ import ProjectCard from "@/components/project-card";
 
 const getData = async()=>{
     const response = await fetch('https://pouria-resume.vercel.app/api/works');
+
     return response.json();
 }
 
