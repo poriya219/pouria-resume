@@ -1,4 +1,4 @@
-import ImageCarousel from "@/components/carousel";
+import ProjectPageComponent from "@/components/project-page";
 
 const getData = async(slug)=>{
     const response = await fetch(`https://pouria-resume.vercel.app/api/works?index=${slug}`, {cache:"no-store"});
@@ -12,13 +12,7 @@ const ProjectPage = async({params}) => {
     const data = await getData(slug);
 
     return (
-        <div>
-            <h1 className="font-bold text-2xl">{data.title}</h1>
-            <div style={{ whiteSpace: "pre-wrap", wordBreak: "break-word" }} className="font-medium pt-8">
-                {data.description}
-            </div>
-            <ImageCarousel images={data.images} alt={data.title}/>
-        </div>
+        <ProjectPageComponent data={data}/>
     );
 }
 

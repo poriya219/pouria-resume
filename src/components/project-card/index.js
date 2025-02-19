@@ -1,18 +1,26 @@
+'use client'
+
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
-import { FaArrowRight } from "react-icons/fa6";
+import { usePathname } from "next/navigation";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
 export default function ProjectCard({ title, description, imgUrl, color, index }) {
+  const t = useTranslations();
+  const locale = useLocale();
+  const pathname = usePathname();
+  const currentPath = pathname.replace(/^\/(fa|en)/, '') || '/';
     return (
       <div className={`${color} rounded-lg shadow-md px-8 flex flex-col items-center justify-between`}>
         <div className="pt-4 flex items-center justify-between w-full">
         <div className="flex flex-col">
-        <h3 className="text-xl font-semibold mt-2">{title}</h3>
-        <p className="text-gray-600 line-clamp-3">{description}</p>
+        <h3 className="text-xl font-semibold mt-2">{t(title)}</h3>
+        <p className="text-gray-600 line-clamp-3">{t(description)}</p>
         </div>
-        <Link href={`/works/${index}`}>
-        <div className="rounded-full bg-white p-3 ml-4">
-            <FaArrowRight size={25} color="0a0a0a"/>
+        <Link href={`/${locale}/works/${index}`}>
+        <div className={`rounded-full bg-white p-3 ${locale === 'fa' ? "mr-4" : "ml-4"}`}>
+            {locale === 'fa' ? <FaArrowLeft size={25} color="0a0a0a"/> : <FaArrowRight size={25} color="0a0a0a"/>}
         </div>
         </Link>
         </div>
