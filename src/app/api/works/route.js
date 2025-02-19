@@ -33,7 +33,7 @@ export async function GET(req) {
         "/images/wheater2.png",
         "/images/wheater3.png",
       ],
-      "cover": "/images/wheater2.png",
+      "cover": "/images/wheater4.png",
       "color": "bg-[#D97B66]"
     }
   ];
