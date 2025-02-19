@@ -1,8 +1,7 @@
 export async function GET(req) {
   const data = [
     {
-      "title": "gramatic.title",
-      "description": "gramatic.description",
+      "id": "gramatic",
       "images": [
         "/images/gramatic2.jpg",
         "/images/gramatic3.jpg"
@@ -11,8 +10,7 @@ export async function GET(req) {
       "color": "bg-[#84c4eb]"
     },
     {
-      "title": "beeaab.title",
-      "description": "beeaab.description",
+      "id": "beeaab",
       "images": [
         "/images/beeaab2.jpg",
         "/images/beeaab3.jpg"
@@ -21,8 +19,7 @@ export async function GET(req) {
       "color": "bg-[#2f3543]"
     },
     {
-      "title": "musicflow.title",
-      "description": "musicflow.description",
+      "id": "musicflow",
       "images": [
         "/images/music2.jpg"
       ],
