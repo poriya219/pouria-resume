@@ -25,6 +25,16 @@ export async function GET(req) {
       ],
       "cover": "/images/music1.png",
       "color": "bg-[#e6bf62]"
+    },
+    {
+      "id": "wheater",
+      "images": [
+        "/images/wheater1.png",
+        "/images/wheater2.png",
+        "/images/wheater3.png",
+      ],
+      "cover": "/images/wheater2.png",
+      "color": "bg-[#D97B66]"
     }
   ];
   const url = new URL(req.url);
